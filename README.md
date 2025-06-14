@@ -21,4 +21,6 @@ The datasets used in this project can be downloaded from the [KEEL repository](h
 - NumPy
 - Pandas
 - Scikit-learn
-- TensorFlow or Keras
+- TensorFlow
+- scipy
+- openpyxl
