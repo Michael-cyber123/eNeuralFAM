@@ -18,7 +18,7 @@ l1_norm = partial(np.linalg.norm, ord=1, axis=-1)
 # -------------------------------
 # Data loading and preprocessing
 # -------------------------------
-df = pd.read_csv("~/Desktop/Datasets/ring.dat.csv")
+df = pd.read_csv("~/Desktop/Datasets/spambase.dat.csv")
 
 X = df.drop(columns=["target"]).values  
 y = df["target"].astype(int).values
