@@ -9,13 +9,9 @@ This repository implements and evaluates two ART-based online learning paradigms
 ### 1) Concatenated (single-stream) model
 - **ANN + Fuzzy ARTMAP (FAM)**: a single ANN extracts a low-dimensional embedding which is then used by FAM for online learning.
 
-### 2) Modular (multi-channel) model
-- **ANN + Fusion ARTMAP (FusAM)**: the input feature vector is split into multiple channels.  
-A separate ANN is trained per channel to produce embeddings, which are then learned and fused by a multi-channel ARTMAP classifier.
-
 This project implements an ensemble-based online learning model using:
 - ANN for feature extraction
-- Fuzzy ARTMAP (FAM) and Fusion ARTMAP (FusAM) as the classifier
+- Fuzzy ARTMAP (FAM) as the classifier
 - Ensemble voting mechanism for robust predictions
 
 The model is evaluated across multiple datasets and noise levels, with performance tracked using various classification metrics.
