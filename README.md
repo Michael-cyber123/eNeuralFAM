@@ -6,7 +6,7 @@
 
 This repository implements and evaluates two ART-based online learning paradigms:
 
-### 1) Concatenated (single-stream) model
+Concatenated (single-stream) model
 - **ANN + Fuzzy ARTMAP (FAM)**: a single ANN extracts a low-dimensional embedding which is then used by FAM for online learning.
 
 This project implements an ensemble-based online learning model using:
